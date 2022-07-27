@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle indo-slot",
+        "command": "indo-slot:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "indo-slot",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "indo-slot:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
